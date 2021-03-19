@@ -1,0 +1,6 @@
+name: mssql
+dependencies:
+  - pymssql
+  - pyodbc
+  - sqlalchemy
+  - jupyterlab
