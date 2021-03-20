@@ -1,6 +1,9 @@
 name: mssql
 dependencies:
+  - pandas
   - pymssql
   - pyodbc
-  - sqlalchemy
   - jupyterlab
+  - pip
+  - pip:
+    - sqlalchemy>=1.4
